@@ -33,13 +33,13 @@ export default class Game {
     this.countMiss = document.querySelector('.miss');
     const goblin = new Goblin();
     if (+this.countHit.textContent === 5) {
-      const winMessage = '<div class="result"> <p> Победа!</p></div>';
-      gameBoard.insertAdjacentHTML('beforeend', winMessage);
+      const gameWinMessage = '<div class="result"> <p> Победа!</p></div>';
+      gameBoard.insertAdjacentHTML('beforeend', gameWinMessage);
       goblin.hideGoblin();
       this.stop();
     } else if (+this.countMiss.textContent === 5) {
-      const looseMessage = '<div class="result"> <p> Поражение!</p></div>';
-      gameBoard.insertAdjacentHTML('beforeend', looseMessage);
+      const gameLooseMessage = '<div class="result"> <p> Поражение!</p></div>';
+      gameBoard.insertAdjacentHTML('beforeend', gameLooseMessage);
       goblin.hideGoblin();
       this.stop();
     }
