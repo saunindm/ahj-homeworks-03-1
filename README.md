@@ -4,7 +4,7 @@ https://saunindm.github.io/ahj-homeworks-03-1/
 
 ![CI](https://github.com/saunindm/ahj-homeworks-03-1/actions/workflows/web.yml/badge.svg)
 
-[![Build status](https://ci.appveyor.com/api/projects/status/2stttdow6vyk07hj?svg=true)](https://ci.appveyor.com/project/saunindm/ahj-homeworks-03-1)
+[![Build status](https://ci.appveyor.com/api/projects/status/4551k1imbqmjn6c5?svg=true)](https://ci.appveyor.com/project/saunindm/ahj-homeworks-03-1)
 
 
 # Домашнее задание к занятию "3.Обработка событий"
